@@ -1,0 +1,48 @@
+{
+  "name": "aiflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Texterous/Comprehensive-LangChainJS-ExpressJS-Boilerplate.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Texterous/Comprehensive-LangChainJS-ExpressJS-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Texterous/Comprehensive-LangChainJS-ExpressJS-Boilerplate#readme",
+  "devDependencies": {
+    "swagger-ui-express": "^4.6.2",
+    "yamljs": "^0.3.0"
+  },
+  "dependencies": {
+    "@onflow/fcl": "^1.4.0",
+    "@onflow/types": "^1.1.0",
+    "@thirdweb-dev/chains": "^0.1.20",
+    "@thirdweb-dev/sdk": "^3.10.21",
+    "ajv": "^8.12.0",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "elliptic": "^6.5.4",
+    "ethers": "^5.7.2",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^6.15.0",
+    "langchain": "^0.0.91",
+    "moralis": "^2.22.2",
+    "morgan": "^1.10.0",
+    "sha3": "^2.1.4",
+    "swagger-jsdoc": "^6.2.8",
+    "ytdl": "^1.4.1",
+    "ytdl-core": "^4.11.4"
+  }
+}
