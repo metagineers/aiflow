@@ -1,5 +1,9 @@
 # AIFlow Autonomous Agents For ChainLink and Flow Blockchain 🚀
 
+### Post hackathon branch
+This branch is created temporarily while the judging for the ChainLink Spring 2023 Hackathon is being judged so as to allow the continuation of small and critical bug fixes.
+
+## What is this?
 A feature-packed framework tool helps you build expressive and powerful APIs using LangChain and Express.js. This framework tool  provides a solid foundation for creating your own custom automous agents API with a wide range of functionalities. Get started quickly and build amazing AI ChainLink and Flow Blockchain APIs with ease! 🎉
 
 For convinience, and as this started from the Chainlink/Flow hackathon, the demo has a few tools already pre-coded for you to use for both ChainLink (pricefeed) and Flow (query and mutate generic ones and profile smart contract). Just call the API on one of the endpoints and ask for task to be done that use the tools in natural language and the AI agent will the do the heavy lifting for you!
@@ -94,7 +98,7 @@ npm run start
 
 Also under the `flow` directory, there are test js files you can use to quickly test flow blockchain operations and created new functionality and features prior to using an embedding them as AI tools.
 
-## ChainLink Nodes
+## ChainLink Notes
 
 1. Price Feed data obtained via offchain methods (reading the smart contract) from Sepolia test
 

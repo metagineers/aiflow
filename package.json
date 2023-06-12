@@ -7,18 +7,21 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=18.15.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Texterous/Comprehensive-LangChainJS-ExpressJS-Boilerplate.git"
+    "url": "git+https://github.com/metagineers/aiflow.git"
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Texterous/Comprehensive-LangChainJS-ExpressJS-Boilerplate/issues"
+    "url": "https://github.com/metagineers/aiflow/issues"
   },
-  "homepage": "https://github.com/Texterous/Comprehensive-LangChainJS-ExpressJS-Boilerplate#readme",
+  "homepage": "https://github.com/metagineers/aiflow#readme",
   "devDependencies": {
     "swagger-ui-express": "^4.6.2",
     "yamljs": "^0.3.0"
