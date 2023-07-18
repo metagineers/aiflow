@@ -55,7 +55,7 @@ import GetChainlinkBTCUSD from './tools/GetChainlinkBTCUSD.js';
 
 // Flow specific tools
 
-// There is an in the flow folder for the different kinds of flow blockchain operations you want to able to do
+// In the flow folder you can see different kinds of flow blockchain operations you want to able to do
 // mutate, query generic ones, and then the specific ones applied for reading profiles for instance
 import GetFlowProfile from './tools/GetFlowProfile.js';
 import SetFlowProfileInfo from './tools/SetFlowProfileInfo.js';
@@ -98,8 +98,8 @@ export const methods = [
         new SetFlowProfileName(),
       ];
       
-      // Feel free to change the model to sometjing else. e.g. gpt-4 or cohere etc
-      const model = new OpenAI({ temperature: 0, model: 'gpt-3.5-turbo' });
+      // Feel free to change the model to sometjing else. e.g. gpt-4, gpt-3.5-turbo etc
+      const model = new OpenAI({ temperature: 0, model: 'gpt-4' });
 
       const executor = await initializeAgentExecutorWithOptions(
         tools,

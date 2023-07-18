@@ -1,5 +1,18 @@
 # AIFlow Autonomous Agents For ChainLink and Flow Blockchain 🚀
 
+## 🏆 Winner of ChainLink Hackthon 🏆
+This project won the [ChainLink Spring 2023 Hackathon!](https://chainlinkspring2023.devpost.com/) Flow Prize! 
+
+You can find out more here! [DevPost AI Flow Project Showcase](https://devpost.com/software/aiflow-5kcvd4) Many thanks to the Flow community. I will be writing some blog posts with regards to the journey and few sets of tutorials to show how to use this tools to create autonomous agents for your own projects.
+
+## What's next?
+I will continue to maintain this project for quick and dirty Flow/AI Tool. Behind the scene, the next evolution of this tool which is a total rewrite and mostly no code interface will be done in the next few months. 
+
+This will be a SaaS platform for creating autonomous agents for your own AI/Flow Blockchain projects. It will be a paid service but will be free for the first 100 users during the initial beta testing period. 
+
+If you are interested in this, please contact me via [Twitter](https://twitter.com/voicetechguy1) or [LinkedIn](https://www.linkedin.com/in/goldzulu/)
+
+## What is this?
 A feature-packed framework tool helps you build expressive and powerful APIs using LangChain and Express.js. This framework tool  provides a solid foundation for creating your own custom automous agents API with a wide range of functionalities. Get started quickly and build amazing AI ChainLink and Flow Blockchain APIs with ease! 🎉
 
 For convinience, and as this started from the Chainlink/Flow hackathon, the demo has a few tools already pre-coded for you to use for both ChainLink (pricefeed) and Flow (query and mutate generic ones and profile smart contract). Just call the API on one of the endpoints and ask for task to be done that use the tools in natural language and the AI agent will the do the heavy lifting for you!
@@ -94,7 +107,7 @@ npm run start
 
 Also under the `flow` directory, there are test js files you can use to quickly test flow blockchain operations and created new functionality and features prior to using an embedding them as AI tools.
 
-## ChainLink Nodes
+## ChainLink Notes
 
 1. Price Feed data obtained via offchain methods (reading the smart contract) from Sepolia test
 
